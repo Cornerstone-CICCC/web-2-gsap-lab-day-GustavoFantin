@@ -58,7 +58,6 @@ aboutTl
     const horizontalTl = gsap.timeline({
     scrollTrigger: {
         trigger: '.horizontal-sections',
-        markers: true,
         start: 'top top',
         pin: true,
         scrub: true
